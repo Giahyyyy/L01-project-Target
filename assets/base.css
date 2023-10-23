@@ -1,0 +1,130 @@
+:root {
+    --primary-color:#ff8d00;
+    --white-color: #fff;
+    --text-color:#979797;
+    --box-color:#e2e2e2;
+    --heading-color: #464646;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.app {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 3000px;
+    /* background-color: #d6cccc; */
+}
+
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.grid__column-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+
+.grid__column-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 41.6667%;
+}
+
+.grid__column-7 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 58.3334%;
+    
+    /* display: none; */
+}
+
+.grid__column-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+
+.grid__column-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.3334%;
+}
+
+.grid__column-8 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 66.6667%;
+}
+
+.grid__column-8-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 22.2223%;
+}
+
+.grid__column-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+}
+
+
+
+
+.btn {
+    height: 38px;
+    min-width: 168px;
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 550;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+    box-shadow: 0px 0px 6px 2px #d7dbdc;
+    border-radius: 30px;
+    color: #8f5233;
+}
+
+.btn.btn--normal {
+    background-image: linear-gradient(to top ,#cecccae8, #bdbbb9d1);
+    color: var(--text-color);
+}
+
+.btn.btn--primary {
+    background-image: linear-gradient(to top ,#ff4800e8, #ff8100d1);
+    min-width: 190px;
+}
