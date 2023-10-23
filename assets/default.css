@@ -76,6 +76,7 @@
     border-radius: 2px;
     -webkit-box-shadow: -3px 36px 50px -2px rgba(0,0,0,0.46); 
     box-shadow: -3px 36px 50px -2px rgba(0,0,0,0.46);
+    border: 3px solid #bbbcbd92;
 }
 
 .banner__slider-btn-left {
@@ -233,6 +234,7 @@
     margin-top: 30px;
     -webkit-box-shadow: -3px 36px 50px -2px rgba(0,0,0,0.46); 
     box-shadow: -3px 36px 50px -2px rgba(0,0,0,0.46);
+    border: 3px solid #bbbcbd92;
 }
 
 .content-screenshot__heading {
@@ -319,6 +321,7 @@
 
 .footer__pay-list {
     display: flex;
+    align-items: center ;
 }
 
 .footer__text {
@@ -327,9 +330,21 @@
     font-weight: 550;
 }
 
-.footer__pay-img {
+.footer__pay-img-visa {
     width: 50px;
     height: 40px;
+    padding-right: 5px;
+}
+
+.footer__pay-img-matercard {
+    width: 44px;
+    height: 24px;
+    padding-right: 5px;
+}
+
+.footer__pay-img-paypal {
+    width: 44px;
+    height: 24px;
     padding-right: 5px;
 }
 
@@ -342,11 +357,11 @@
 }
 
 .footer__logo {
-    width: 194px;
-    height: 112px;
+    width: 147px;
+    height: 77px;
     position: relative;
-    top: -35px;
-    left: 50px;
+    top: -4px;
+    left: 67px;
 }
 /* Ending */
 .ending {
